@@ -1,4 +1,5 @@
 import { html, fixture, expect } from '@open-wc/testing';
+import Sinon from 'sinon';
 import { stub } from 'sinon';
 import '../src/LoanBasicDetails/BasicDetails.js';
 import { format } from 'prettier';
@@ -15,4 +16,3 @@ describe('Basic details', () => {
     expect(spy.calledTwice).to.be.true;
   });
 });
-//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
